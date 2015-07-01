@@ -1,0 +1,44 @@
+{
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "Totti",
+    "longName": "Yosemite picture with weather status",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/converted.png",
+                "menuIcon": true,
+                "name": "IMAGE_BACKGROUND",
+                "type": "png"
+            },
+            {
+                "compatibility": "2.7",
+                "file": "fonts/perfect-dos-vga.ttf",
+                "name": "FONT_PERFECT_DOS_20",
+                "type": "font"
+            },
+            {
+                "compatibility": "2.7",
+                "file": "fonts/perfect-dos-vga.ttf",
+                "name": "FONT_PERFECT_DOS_48",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Yosemite",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "28109645-5372-4f93-bf0b-d1591bfdb1cf",
+    "versionLabel": "1.2",
+    "watchapp": {
+        "watchface": true
+    }
+}
